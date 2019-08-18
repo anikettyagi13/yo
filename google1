@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      body{
+        text-align:center;
+        margin:0 auto;
+          }
+      input{
+      padding:20px;
+        margin:2px;
+        font-size:46px;
+      }
+      ul{
+        border:5px solid black;
+        background-color:grey; 
+      }
+      li{
+        display: block;
+        position:sticky;
+        top:0;
+      border:2px solid black;
+       color:white;
+        margin:0 20px 0 20px;
+        font-size:25px;
+      }
+      li a:hover{
+        display: block;
+        background:green;
+        color:black;
+      }
+      
+      </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="#">images</a></li>
+      <li><a href="#">sla</a></li>
+      <li><a href="#">wad</a></li>
+    </ul>
+    <img src="https://g-design.storage.googleapis.com/production/v6/assets/article/evolving-the-google-identity/g-share.gif"></img><br>
+    <input type="text"></input><br><input type="submit"></input>
+    <script src="script.js"></script>
+  </body>
+</html>
